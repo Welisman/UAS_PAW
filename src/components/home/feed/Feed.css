@@ -1,0 +1,10 @@
+.feed{
+    width: 120%;
+    border-left: 1px solid var(--twitter-secondary);
+    border-right: 1px solid var(--twitter-secondary);
+    height: 100vh;
+}
+
+.feed_header h2 {
+    padding: 0.5rem 1rem;
+}
