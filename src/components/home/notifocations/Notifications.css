@@ -5,7 +5,7 @@
   
   .notifications__content {
     flex: 1;
-    padding: 20px;
+    padding: 1rem;
   }
   
   .notifications__title {
@@ -16,13 +16,16 @@
   .notification {
     display: flex;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--twitter-secondary); /* Tambahkan border bottom di sini */
+    padding-bottom: 0.5rem; /* Tambahkan ruang di bagian bawah setiap notifikasi */
   }
   
   .notification__avatar {
     width: 50px;
     height: 50px;
-    background-color: #ccc; /* Ganti warna sesuai kebutuhan */
+    background-size: cover;
+    background-position: center;
     border-radius: 50%;
     margin-right: 1rem;
   }
@@ -38,6 +41,6 @@
   
   .notification__info span {
     font-size: 0.9rem;
-    color: #657786; /* Warna abu-abu untuk timestamp */
+    color: var(--grey-2);
   }
   

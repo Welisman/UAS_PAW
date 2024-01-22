@@ -17,8 +17,8 @@ function ProjectApp() {
           <Route path="/" element={<Login />} />
           <Route path="/home/" element={<HomeLayout />} >
             <Route index element={<Home />} />
-            <Route path="/home/search" element={<Explore />} />
-            <Route path="/home/notification" element={<Notifications />} />
+            <Route path="/home/explore" element={<Explore />} />
+            <Route path="/home/notifications" element={<Notifications />} />
             <Route path="/home/profile" element={<Profile />} />
             <Route path="/home/messages" element={<Messages />} />
           </Route>
